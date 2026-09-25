@@ -13,15 +13,10 @@ app.use(express.json());
 
 app.get("/", (req, res) => {
 
-  res.send("Mission Brief API is running 🚀");
+  res.send("running ");
 
 });
 
-app.post("/api/analyze", async (req, res) => {
-
-  // Gemini code...
-
-});
 const ai = new GoogleGenAI({
 
     apiKey: process.env.GEMINI_API_KEY,
