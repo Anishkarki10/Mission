@@ -130,6 +130,11 @@ function App() {
             title="Approval Required"
             items={result.approvalRequired}
           />
+
+<ListSection
+            title="Confidence"
+            items={result.confidence}
+          />
   </>
 
 )}
